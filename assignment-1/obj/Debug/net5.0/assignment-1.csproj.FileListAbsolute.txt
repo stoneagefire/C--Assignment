@@ -1,0 +1,16 @@
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\C#\C#-Assignment\assignment-1\bin\Debug\net5.0\assignment-1.exe
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\C#\C#-Assignment\assignment-1\bin\Debug\net5.0\assignment-1.deps.json
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\C#\C#-Assignment\assignment-1\bin\Debug\net5.0\assignment-1.runtimeconfig.json
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\C#\C#-Assignment\assignment-1\bin\Debug\net5.0\assignment-1.runtimeconfig.dev.json
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\C#\C#-Assignment\assignment-1\bin\Debug\net5.0\assignment-1.dll
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\C#\C#-Assignment\assignment-1\bin\Debug\net5.0\ref\assignment-1.dll
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\C#\C#-Assignment\assignment-1\bin\Debug\net5.0\assignment-1.pdb
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\C#\C#-Assignment\assignment-1\obj\Debug\net5.0\assignment-1.csproj.AssemblyReference.cache
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\C#\C#-Assignment\assignment-1\obj\Debug\net5.0\assignment-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\C#\C#-Assignment\assignment-1\obj\Debug\net5.0\assignment-1.AssemblyInfoInputs.cache
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\C#\C#-Assignment\assignment-1\obj\Debug\net5.0\assignment-1.AssemblyInfo.cs
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\C#\C#-Assignment\assignment-1\obj\Debug\net5.0\assignment-1.csproj.CoreCompileInputs.cache
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\C#\C#-Assignment\assignment-1\obj\Debug\net5.0\assignment-1.dll
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\C#\C#-Assignment\assignment-1\obj\Debug\net5.0\ref\assignment-1.dll
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\C#\C#-Assignment\assignment-1\obj\Debug\net5.0\assignment-1.pdb
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\C#\C#-Assignment\assignment-1\obj\Debug\net5.0\assignment-1.genruntimeconfig.cache
