@@ -8,9 +8,6 @@ namespace assignment_1
     {
         static void Main(string[] args)
         {
-            // Sample obj = new Sample();
-            // obj.input();
-
             Employee employee = new Employee();
             bool flag = true;
             int count = 0;

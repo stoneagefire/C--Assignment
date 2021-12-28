@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\patel\\OneDrive\\Desktop\\PROMACT Training\\C#\\C#-Assignment\\assignment-1\\assignment-1.csproj",
+      "projectUniqueName": "C:\\Users\\patel\\OneDrive\\Desktop\\PROMACT Training\\C#\\C--Assignment\\assignment-1\\assignment-1.csproj",
       "projectName": "assignment-1",
-      "projectPath": "C:\\Users\\patel\\OneDrive\\Desktop\\PROMACT Training\\C#\\C#-Assignment\\assignment-1\\assignment-1.csproj",
+      "projectPath": "C:\\Users\\patel\\OneDrive\\Desktop\\PROMACT Training\\C#\\C--Assignment\\assignment-1\\assignment-1.csproj",
       "packagesPath": "C:\\Users\\patel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\patel\\OneDrive\\Desktop\\PROMACT Training\\C#\\C#-Assignment\\assignment-1\\obj\\",
+      "outputPath": "C:\\Users\\patel\\OneDrive\\Desktop\\PROMACT Training\\C#\\C--Assignment\\assignment-1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\patel\\AppData\\Roaming\\NuGet\\NuGet.Config"
