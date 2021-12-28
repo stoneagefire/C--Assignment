@@ -35,12 +35,61 @@ namespace assignment_2
             return data;
         }
 
-        public void DisplayAll(List<List<string>> dataList, double amt)
+        public List<List<string>> AddNewProduct(List<List<string>> product)
+        {
+            System.Console.WriteLine("Enter no. of new products to add in inventry: ");
+            int count = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i<count; i++)
+            {
+                var tempData = getData();
+                product.Add(tempData);
+            }
+            return product;
+        }
+
+        internal void FetchItemListByType(List<List<string>> productList)
+        {
+            string[] itemTypeList = {"Leafy green", "Cruciferous", "Marrow", "Root"};
+            System.Console.WriteLine("available Item type :");
+            foreach (string itemType in itemTypeList)
+            {
+                System.Console.Write(" "+itemType);
+            }
+            System.Console.WriteLine("Enter item type: ");
+            string inputType = Console.ReadLine();
+
+            System.Console.WriteLine(typeof());
+
+            // foreach (string itemType in itemTypeList)
+            // {
+            //     if(itemType.ToString() == inputType.ToString())
+            //     {
+            //         foreach(var product in productList)
+            //         {
+            //             if(product[3]==inputType)
+            //             {
+            //                 System.Console.WriteLine("Name: " + product[0]);
+            //             }
+            //         }
+            //     }
+            //     else
+            //     {
+            //         System.Console.WriteLine("Invalid Item Type input");
+            //         break;
+            //     }
+            // }
+        }
+
+        public void DisplayAll(List<List<string>> dataList)
         {
             foreach (var item in dataList)
             {
-                var sam = item.ToArray();
-                System.Console.WriteLine(sam[0].ToString() + ", " + sam[1].ToString() + ", " + sam[2].ToString() + ", " + sam[3].ToString());
+                var sam = item;
+                System.Console.WriteLine(sam[0].ToString() + ", " 
+                    + sam[1].ToString() + " RS, " 
+                    + sam[2].ToString() + ", " 
+                    + sam[3].ToString());
             }
         }
     }
