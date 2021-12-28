@@ -5,17 +5,11 @@ namespace assignment_2
 {
     class Product
     {
-        public string Name { get; set; }
-        public double Value { get; set; }
-        public int Quantity { get; set; }
-        public string Type { get; set; }
-
-        // public TInput GetData<TInput>() where TInput : IConvertible
-        // {
-        //     var temp = (TInput) Console.ReadLine();
-        //     return (TInput) temp;
-        // }
-
+        List<List<string>> productList;
+        public Product(List<List<string>> productList)
+        {
+            this.productList = productList;
+        }
         public List<string> getData()
         {
             var data = new List<string>();
@@ -24,7 +18,7 @@ namespace assignment_2
             data.Add(Console.ReadLine());
 
             System.Console.WriteLine("Enter Product Value: ");
-            data.Add(Console.ReadLine()+" RS");
+            data.Add(Console.ReadLine());
 
             System.Console.WriteLine("Enter Product Quantity: ");
             data.Add(Console.ReadLine());
@@ -35,61 +29,81 @@ namespace assignment_2
             return data;
         }
 
-        public List<List<string>> AddNewProduct(List<List<string>> product)
+        public List<List<string>> AddNewProduct()
         {
             System.Console.WriteLine("Enter no. of new products to add in inventry: ");
             int count = int.Parse(Console.ReadLine());
 
-            for (int i = 0; i<count; i++)
+            for (int i = 0; i < count; i++)
             {
                 var tempData = getData();
-                product.Add(tempData);
+                productList.Add(tempData);
+                System.Console.WriteLine("\nNew item added to Inventory...\n");
             }
-            return product;
+            return productList;
         }
 
-        internal void FetchItemListByType(List<List<string>> productList)
+        internal void FetchItemListByType()
         {
-            string[] itemTypeList = {"Leafy green", "Cruciferous", "Marrow", "Root"};
+            string[] itemTypeList = { "Leafy green", "Cruciferous", "Marrow", "Root" };
             System.Console.WriteLine("available Item type :");
             foreach (string itemType in itemTypeList)
             {
-                System.Console.Write(" "+itemType);
+                System.Console.Write(itemType + ", ");
             }
-            System.Console.WriteLine("Enter item type: ");
+            System.Console.Write("\nEnter item type: ");
             string inputType = Console.ReadLine();
 
-            System.Console.WriteLine(typeof());
+            foreach (string itemType in itemTypeList)
+            {
+                if (inputType == itemType)
+                {
+                    System.Console.WriteLine();
+                    foreach (var item in productList)
+                    {
+                        if (item[3].TrimStart() == inputType)
+                        {
+                            System.Console.WriteLine("Name: " + item[0].TrimStart());
+                        }
+                    }
+                }
+            }
+        }
 
-            // foreach (string itemType in itemTypeList)
-            // {
-            //     if(itemType.ToString() == inputType.ToString())
-            //     {
-            //         foreach(var product in productList)
-            //         {
-            //             if(product[3]==inputType)
-            //             {
-            //                 System.Console.WriteLine("Name: " + product[0]);
-            //             }
-            //         }
-            //     }
-            //     else
-            //     {
-            //         System.Console.WriteLine("Invalid Item Type input");
-            //         break;
-            //     }
-            // }
+        internal List<List<string>> AddNewPurchaseDetail()
+        {
+            System.Console.WriteLine("Name: ");
+            var prdName = Console.ReadLine();
+
+            System.Console.WriteLine("Quantity: ");
+            var prdQty = int.Parse(Console.ReadLine());
+
+            double amt = 0;
+            foreach (var product in productList)
+            {
+                if (product[0].TrimStart() == prdName && product[2].TrimStart() != "0")
+                {
+                    amt = prdQty * Double.Parse(product[1]);
+                    product[2] = (int.Parse(product[2]) - prdQty).ToString();
+                    break;
+                }
+            }
+
+            System.Console.WriteLine("Final Amount: " + amt);
+            return productList;
         }
 
         public void DisplayAll(List<List<string>> dataList)
         {
             foreach (var item in dataList)
             {
-                var sam = item;
-                System.Console.WriteLine(sam[0].ToString() + ", " 
-                    + sam[1].ToString() + " RS, " 
-                    + sam[2].ToString() + ", " 
-                    + sam[3].ToString());
+                if (item[2].TrimStart() != "0")
+                {
+                    System.Console.WriteLine(item[0].ToString() + ", "
+                    + item[1].ToString() + " RS, "
+                    + item[2].ToString() + ", "
+                    + item[3].ToString());
+                }
             }
         }
     }
