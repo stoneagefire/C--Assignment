@@ -1,0 +1,16 @@
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\06-C#\C--Assignment\assignment-2\bin\Debug\net5.0\assignment-2.exe
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\06-C#\C--Assignment\assignment-2\bin\Debug\net5.0\assignment-2.deps.json
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\06-C#\C--Assignment\assignment-2\bin\Debug\net5.0\assignment-2.runtimeconfig.json
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\06-C#\C--Assignment\assignment-2\bin\Debug\net5.0\assignment-2.runtimeconfig.dev.json
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\06-C#\C--Assignment\assignment-2\bin\Debug\net5.0\assignment-2.dll
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\06-C#\C--Assignment\assignment-2\bin\Debug\net5.0\ref\assignment-2.dll
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\06-C#\C--Assignment\assignment-2\bin\Debug\net5.0\assignment-2.pdb
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\06-C#\C--Assignment\assignment-2\obj\Debug\net5.0\assignment-2.csproj.AssemblyReference.cache
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\06-C#\C--Assignment\assignment-2\obj\Debug\net5.0\assignment-2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\06-C#\C--Assignment\assignment-2\obj\Debug\net5.0\assignment-2.AssemblyInfoInputs.cache
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\06-C#\C--Assignment\assignment-2\obj\Debug\net5.0\assignment-2.AssemblyInfo.cs
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\06-C#\C--Assignment\assignment-2\obj\Debug\net5.0\assignment-2.csproj.CoreCompileInputs.cache
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\06-C#\C--Assignment\assignment-2\obj\Debug\net5.0\assignment-2.dll
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\06-C#\C--Assignment\assignment-2\obj\Debug\net5.0\ref\assignment-2.dll
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\06-C#\C--Assignment\assignment-2\obj\Debug\net5.0\assignment-2.pdb
+C:\Users\patel\OneDrive\Desktop\PROMACT Training\06-C#\C--Assignment\assignment-2\obj\Debug\net5.0\assignment-2.genruntimeconfig.cache
